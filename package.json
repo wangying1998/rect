@@ -1,17 +1,31 @@
 {
   "name": "rect",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "计算矩形面积和周长",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-eslint": "^21.0.0",
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-mocha": "^1.2.0",
+    "grunt-usemin": "^3.1.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wangying1998/rect.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "wangying1998",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wangying1998/rect/issues"
   },
